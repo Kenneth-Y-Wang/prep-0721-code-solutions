@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .header {
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Captain America Movies</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <img src="https://flxt.tmsimg.com/assets/p8205710_p_v13_ao.jpg">
+      <h3>CAPTAIN AMERICA: THE FIRST AVENGER</h3>
+      <p>It is 1941 and the world is in the throes of war. Steve Rogers (Chris Evans) wants to do his part and join America's
+      armed forces, but the military rejects him because of his small stature. Finally, Steve gets his chance when he is
+      accepted into an experimental program that turns him into a supersoldier called Captain America. Joining forces with
+      Bucky Barnes (Sebastian Stan) and Peggy Carter (Hayley Atwell), Captain America leads the fight against the Nazi-backed
+      HYDRA organization.</p>
+    </div>
+
+    <div class="column">
+      <img src="https://flxt.tmsimg.com/assets/p9895254_p_v10_ak.jpg" >
+      <h3>CAPTAIN AMERICA: THE WINTER SOLDIER</h3>
+      <p>After the cataclysmic events in New York with his fellow Avengers, Steve Rogers, aka Captain America (Chris Evans),
+      lives in the nation's capital as he tries to adjust to modern times. An attack on a S.H.I.E.L.D. colleague throws Rogers
+      into a web of intrigue that places the whole world at risk. Joining forces with the Black Widow (Scarlett Johansson) and
+      a new ally, the Falcon, Rogers struggles to expose an ever-widening conspiracy, but he and his team soon come up against
+      an unexpected enemy.</p>
+    </div>
+
+    <div class="column">
+      <img src="https://resizing.flixster.com/_PP4mVUQ5TYq7xqKzlER4qLVif4=/fit-in/1152x864/v2/https://flxt.tmsimg.com/assets/p10989225_v_v10_ax.jpg" >
+      <h3>CAPTAIN AMERICA: CIVIL WAR</h3>
+      <p>Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral
+      damage. The new status quo deeply divides members of the team. Captain America (Chris Evans) believes superheroes should
+      remain free to defend humanity without government interference. Iron Man (Robert Downey Jr.) sharply disagrees and
+      supports oversight. As the debate escalates into an all-out feud, Black Widow (Scarlett Johansson) and Hawkeye (Jeremy
+      Renner) must pick a side.</p>
+    </div>
+
+  </div>
+</div>
+<!-- Complete the HTML here -->
+
+</body>
+</html>
